@@ -15,6 +15,8 @@ import prodotti.StatoOrdine;
 @Setter
 @ToString
 @Component
+//@PropertySource("classpath:application.properties")
+
 public class Ordine {
 	private int numeroOrdine;
 	private Tavolo tavolo;

@@ -10,5 +10,4 @@ import lombok.ToString;
 public abstract class Prodotto {
 	private String nome;
 	private double prezzo;
-	private String nota;
 }
